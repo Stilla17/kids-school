@@ -2,7 +2,7 @@ import React from 'react'
 import kids from './../../assets/kids 3.png';
 const Header = () => {
   return (
-    <div>
+    <div className='pt-5 mt-5'>
 
       <div className='w-[1149px] mx-auto'>
 

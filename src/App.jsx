@@ -2,13 +2,19 @@ import React from 'react'
 import Aplication from './Components/Aplication/Aplication'
 import Nav from './Components/Nav/Nav'
 import Header from './Components/Header/Header'
+import Hero from './Components/Hero/Hero'
+import Box from './Components/Box/Box'
 
 const App = () => {
   return (
     <>
       <Nav />
       <Aplication />
-      <Header />
+      <div className='bg-[#E1DEFC]'>
+        <Header />
+        <Hero />
+        <Box />
+      </div>
     </>
   )
 }
