@@ -4,6 +4,8 @@ import Nav from './Components/Nav/Nav'
 import Header from './Components/Header/Header'
 import Instruction from './Components/Instruction/Instruction'
 import Explore from './Components/Explore/Explore'
+import Hero from './Components/Hero/Hero'
+import Box from './Components/Box/Box'
 
 const App = () => {
   return (
@@ -13,6 +15,10 @@ const App = () => {
       <Header />
       <Instruction />
       <Explore />
+      <div className='bg-[#E1DEFC]'>
+        <Hero />
+        <Box />
+      </div>
     </>
   )
 }
