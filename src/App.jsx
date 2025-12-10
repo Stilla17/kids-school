@@ -6,6 +6,8 @@ import Instruction from './Components/Instruction/Instruction'
 import Explore from './Components/Explore/Explore'
 import Hero from './Components/Hero/Hero'
 import Box from './Components/Box/Box'
+import Section from './Components/Section/Section'
+import Section2 from './Components/Section2/Section2'
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
         <Hero />
         <Box />
       </div>
+      <Section />
+      <Section2 />
     </>
   )
 }
